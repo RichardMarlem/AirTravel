@@ -22,13 +22,16 @@ header {
     position: relative;
     z-index: 2;
     margin: auto;
+    
+
+    a {
+    color: #eee;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-right: 2rem;
+    }
 }
 
-header a {
-    color: #eee;
-    margin-right: 40px;
-    font-weight: 300;
-}
 
 header a:hover {
     color: rgb(214, 167, 255);
@@ -36,9 +39,9 @@ header a:hover {
 }
 
 .container {
-    height: 100vh;
-    width: 100vw;
-    margin-top: -50px;
+    height: 20vh;
+    width: 90vw;
+    
     overflow: hidden;
 }
 
